@@ -1,0 +1,27 @@
+#chatbox{
+    height: 300px;
+    max-width: 400px;
+    overflow-y: scroll;
+    padding: 0;
+}
+
+.message{
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+}
+
+.message > div{
+    display: inline-block;
+    background-color: lightblue;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.self{
+    justify-content: flex-end;
+}
+
+.self > div{
+    background-color: lightgreen;
+}
